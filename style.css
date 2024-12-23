@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #333;
+    /* background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL3Jhd3BpeGVsX29mZmljZV81N18yNTQwOV9waG90b19fMzVfbW92aWVfZmlsbV9iYWNrZ3JvdW5kX19mb3JfcF9hODc4MWEyNS05ZmIyLTQ2NzgtOWE3My0xMDBkMDdkODc1ZDZfMS5qcGc.jpg);
+    background-size:100%;
+    background-repeat:repeat;
+     */
+     background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL3Jhd3BpeGVsX29mZmljZV81N18yNTQwOV9waG90b19fMzVfbW92aWVfZmlsbV9iYWNrZ3JvdW5kX19mb3JfcF9hODc4MWEyNS05ZmIyLTQ2NzgtOWE3My0xMDBkMDdkODc1ZDZfMS5qcGc.jpg) no-repeat center center fixed;
+     -webkit-background-size: 100%;
+         -moz-background-size: 100%;
+             -o-background-size: 100%;
+                 background-size: 100%;
+                     -webkit-background-size: cover;
+                         -moz-background-size: cover;
+                             -o-background-size: cover;
+                                 background-size: cover;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #ff9900;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+#movie-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+#movie-container {
+    margin-top: 20px;
+}
+
+.movie-card {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.movie-card img {
+    max-width: 100px;
+    margin-right: 15px;
+}
+
+.movie-details {
+    display: flex;
+    align-items: center;
+}
+
+.movie-info {
+    flex-grow: 1;
+}
+
+.movie-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.movie-year {
+    color: #666;
+    font-size: 14px;
+}
